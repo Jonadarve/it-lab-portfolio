@@ -1,5 +1,5 @@
 
-## System Update and User setup
+## System ppdate and user setup
 - ran 'apt update' and 'apt upgrade' to bring system current
 - manually upgraded 2 packages: 'gzip', 'ubuntu-drivers-common'
 - created non-root user and added to 'sudo' group for admin privileges
