@@ -1,0 +1,34 @@
+## Ubuntu Server
+- Installed 'fail2ban'
+- Checked status of fail2ban
+
+## commands
+- sudo apt install fail2ban
+- systemctl status fail2ban
+
+# Ubuntu Server Hardening Log (Day 4)
+
+## Goal
+Secure SSH and basic services on Ubuntu Server VM
+
+## Tasks Completed
+- Disabled root login in `/etc/ssh/sshd_config`
+- Changed SSH port and tested with non-root user
+- Enabled UFW and allowed new SSH port
+- Verified Fail2Ban is active and monitoring `/var/log/auth.log`
+
+## Notes
+- Will follow up with key-based authentication 
+
+
+## Disabled Root SSH Login
+- File: /etc/ssh/sshd_config
+- Changed `PermitRootLogin` to `no`
+- Restarted SSH service to apply change
+- Verified login as non-root user works; root login blocked
+
+## Changed SSH Port
+
+- Changed SSH port in `/etc/ssh/sshd_config`
+- Updated UFW to allow new port
+- Restarted SSH service and confirmed login via new port

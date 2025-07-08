@@ -1,0 +1,9 @@
+
+## Tasks Completed
+- Installed Windows Server 2022 Standard Desktop Experience
+- Set Admin password and verified initial boot in GUI
+- Verified and changed hostname
+- Confirmed Workgroup
+- Used CLI (sconfig and PowerShell) to configure: Windows Update settings 
+- Performed basic performance optimization:
+Ran SystemPropertiesPerformance.exe and adjusted for best perfomance 
