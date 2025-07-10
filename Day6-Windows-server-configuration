@@ -1,0 +1,15 @@
+## Continued with Windows Server config
+- set static IP address used CLI via sconfig
+- enabled RDP 
+- Changed server name
+- confirmed the server is in a workgroup
+- confirmed updates were stuck in pending stat
+- investigated update service behavior with (wuauserv, bits, cryptsvc)
+
+## Next steps (To-Do)...
+- set correct time zone
+- install key roles and features: AD DS, DNS Server, DHCP Server, 
+- Promote server to Domain Controller 
+- Join clients or VMs to the new domain 
+- Create local user accounts and OUs
+- Begin GPO, login policy and DNS resolution tests
