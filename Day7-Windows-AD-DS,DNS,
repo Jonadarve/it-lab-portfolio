@@ -1,0 +1,19 @@
+## PowerShell
+- the node I'm currently working...slow system responsivness. Decided to work from Powershell. 
+- A lot of fun, and will not be going back. 
+
+## Windows Server Setup continued (ADDS + DNS)
+- confirmed PowerShell access
+- installed Active Directory Domain Services and DNS server roles
+- verified that AD DS and DNS were running using PowerShell
+
+## Used PowerShell to:
+- Imported AD module
+- Created a new OU called LabUsers
+- Created a test user
+- Learned about password prompts and fixed user creation syntax
+- Corrected SamAccountName misunderstanding
+- Deleted and recreated user properly
+- verified user creation and permissions
+- Understood default users like "krbtgt"
+
