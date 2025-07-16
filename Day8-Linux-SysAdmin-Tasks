@@ -1,0 +1,37 @@
+## User & Group Managment 
+- created user accounts
+- created and added users to groups
+- set and modified user passwords
+- enforced password policies
+- added "user" to sudo group
+- investigated root user permissions and access control
+
+## Permissions & ACLs
+- applied file permissions (chmod, chown)
+- installed acl package for advanced permissions
+- practiced ACLs with setfacl and getfacl
+
+## Security & Validation
+- verified root vs non-root actions
+- practiced secure password settings with passwd
+- used whoami, id, and groups to validate user context
+- investigated folder creation issues and validated with ls -ld 
+
+## Networking & DNS Troubleshooting
+- Faced and resolved DNS resolution issues
+- edited /etc/resolv.conf
+- restarted systemd-resolved
+- verified routing and name resolution using tools like: ping, curl, wget
+
+## System Updates & Package Management
+- Ran sudo apt update and sudo apt upgrade
+- explored errors in package updates and fixed them
+
+## Services Installed
+- Nginx
+- Apache2
+
+## Service Management
+- used systemctl to: start/stop/restart services
+- enable/disable services at boot
+- check service status
