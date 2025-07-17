@@ -1,0 +1,23 @@
+## Today's focus
+- web server hardening
+- logging
+- tool verification
+- deep dive into linux admin commands
+
+## Tasks Completed
+- hardened nginx 
+disabled autoindex
+added security headers 
+- apache2 status reviewed
+apached failed to start due to port 80 already bound by nginx
+- explored logging
+- installed and verified net tools
+
+## New Concepts and Commands Learned
+- netstat -tulpn
+- lsof -i 
+- dpkg -s 
+- journalctl -xeu
+- ServerName directive in Apache
+- autoindex off; in nginx
+- add_header 
